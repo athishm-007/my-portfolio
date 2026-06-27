@@ -1204,6 +1204,7 @@ ul {
     border-color var(--transition-slow),
     box-shadow var(--transition-slow);
   position: relative;
+  align-items: center;
 }
 
 /* Glass swipe reflect on hover */
