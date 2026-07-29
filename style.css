@@ -1552,6 +1552,18 @@ ul {
   box-shadow: 0 15px 35px rgba(37, 99, 235, 0.05);
 }
 
+.pricing-card.recommended {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--bg-card), var(--bg-card)) padding-box,
+    linear-gradient(135deg, #8a5a00, #c9932f) border-box;
+  box-shadow: 0 15px 35px rgba(138, 90, 0, 0.08);
+}
+
+.pricing-card.recommended:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(138, 90, 0, 0.18);
+}
 .pricing-card:hover {
   transform: translateY(-6px);
   border-color: var(--accent-blue);
