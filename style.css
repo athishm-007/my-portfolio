@@ -1527,9 +1527,9 @@ ul {
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
-  max-width: 900px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1638,10 +1638,15 @@ ul {
 
 .price-features li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
   color: var(--text-secondary);
+}
+
+.price-features li .tick-icon {
+  margin-top: 0.15rem;
 }
 
 .tick-icon {
