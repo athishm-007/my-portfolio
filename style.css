@@ -1574,6 +1574,28 @@ ul {
   animation: shine-badge 3s infinite linear;
 }
 
+.recommended-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #8a5a00 0%, #c9932f 100%);
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  padding: 0.45rem 1.25rem;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(138, 90, 0, 0.35);
+  animation: shine-badge 3s infinite linear;
+}
+
+.price-value-box--stacked {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
 .price-header {
   margin-bottom: 2rem;
 }
